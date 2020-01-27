@@ -1,3 +1,25 @@
+# React JS Crash Course
+
+README.md
+
+## javascript
+
+- objects, arrays, conditionals
+- classes
+- destructuring
+- high order array methods - foreach, map, filter
+- arrow functions
+- fetch api & promises
+
+node, react developer tools
+
+```bash
+npx create-react-app .
+yarn start
+```
+
+es7 react/redux/graphql/react-native snippets
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
