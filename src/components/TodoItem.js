@@ -1,42 +1,8 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 
-/*
-export class TodoItem extends Component {
-  render() {
-    return (
-      // <div style={{ backgroundColor: '#f4f4f4' }}>
-      <div style={itemStyle}>
-        <p>{this.props.todo.title}</p>
-      </div >
-    )
-  }
-}
-
-// PropTypes
-TodoItem.propTypes = {
-  todo: PropTypes.object.isRequired
-}
-
-const itemStyle = {
-  backgroundColor: '#f4f4f4'
-}
-*/
-
 export class TodoItem extends Component {
   getStyle = () => {
-    /*
-    if (this.props.todo.completed) {
-      return {
-        textDecoration: 'line-through'
-      }
-    } else {
-      return {
-        textDecoration: 'none'
-      }
-    }
-    */
-
     return {
       background: '#f4f4f4',
       padding: '10px',
@@ -45,10 +11,23 @@ export class TodoItem extends Component {
     }
   }
 
+  /*
+  // markComplete(e) {
+  markComplete = (e) => {
+    console.log(this.props)
+  }
+  */
+
   render() {
     return (
       <div style={this.getStyle()}>
-        <p>{this.props.todo.title}</p>
+        <p>
+          {/* <input type="checkbox" onChange={this.markComplete.bind(this)} /> {' '} */}
+          {/* <input type="checkbox" onChange={this.markComplete} /> {' '} */}
+          {/* <input type="checkbox" onChange={this.props.markComplete} /> {' '} */}
+          <input type="checkbox" onChange={this.props.markComplete.bind(this, this.props.todo.id)} /> {' '}
+          {this.props.todo.title}
+        </p>
       </div >
     )
   }
