@@ -20,6 +20,10 @@ yarn start
 
 es7 react/redux/graphql/react-native snippets
 
+```bash
+npm i uuid
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
