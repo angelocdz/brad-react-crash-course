@@ -28,6 +28,16 @@ npm i uuid
 npm i react-router-dom
 ```
 
+jsonplaceholder
+https://jsonplaceholder.typicode.com/
+https://jsonplaceholder.typicode.com/todos
+
+fetch api (regular javascript) or axios
+
+```bash
+npm i axios
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
