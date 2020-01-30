@@ -38,6 +38,24 @@ fetch api (regular javascript) or axios
 npm i axios
 ```
 
+### production build
+
+```bash
+npm run build or yarn build
+```
+
+github, new repository, brad-react-crash-course, create repository
+
+```bash
+git remote add origin git@github.com:angelocabanerodedicatoria93/brad-react-crash-course.git
+git push -u origin master
+```
+
+<br/>
+<br/>
+<br/>
+<br/>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
